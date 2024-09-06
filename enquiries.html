@@ -20,28 +20,24 @@
         <title>Gallery</title>
         <link rel="stylesheet" href="css/styles.css">
     </head>
-    <body class="grid-wrapper container">
-        <nav>
+    <body>
+        <header>
             <a href="index.html">
                 <img src="img/logo-transparent.png" width="120"
-                    alt="logo photo - Karen Eddy Jeweller"></a>
-            <ul class="nav-list">
-                <li class="nav-list-item"><strong>Contact: </strong>0440 443
-                    388</li>
-                <li class="nav-list-item"><a
-                        href="mailto: info@kareneddy.com.au">info@kareneddy.com.au</a></li>
-            </ul>
-            <ul class="nav-list">
-                <li class="nav-list-item"><a
-                        href="gallery.html">Gallary</a></li>
-                <li class="nav-list-item"><a
-                        href="enquiries.html"
-                        id="current--page-button">Enquiries</a></li>
-            </ul>
-        </nav>
-        <div class="form">
-                <div class="row">
-                    <h3>Get in touch with us</h3>
+                    alt></a>
+            <div>
+                <p><strong>Contact: </strong>0440 443 388</p>
+                <a href="mailto:info@kareneddy.com.au">info@kareneddy.com.au</a>
+            </div>
+            <nav>
+                <a href="gallery.html">Gallary</a>
+                <a href="enquiries.html" id="current--page-btn">Enquiries</a>
+            </nav>
+        </header>
+        <div class="container-3">
+            <section class="form">
+                <div class="row top-row">
+                    <h4>Get in touch with us</h4>
                     <p>Request custom jewellery, sales queries & general
                         enquiries.</p>
                 </div>
@@ -49,11 +45,13 @@
                     <ul class="wrapper">
                         <li class="form-row">
                             <label for="name">Name:</label>
-                            <input type="text" id="name">
+                            <input type="text" id="name"
+                                placeholder="enter your name">
                         </li>
                         <li class="form-row">
                             <label for="email">Email:</label>
-                            <input type="email" id="email">
+                            <input type="email" id="email"
+                                placeholder="enter your email">
                         </li>
                         <li class="form-row">
                             <label for="enquiry">Enquiry:</label>
@@ -65,23 +63,23 @@
                         </li>
                     </ul>
                 </form>
-        </div>
+            </section>
 
             <section class="form">
-                <div class="row">
-                    <h3>Join our Mailing List</h3>
+                <div class="row top-row">
+                    <h4>Join our Mailing List</h4>
                     <p>Receive regular bi-monthly updates on new items, sales,
                         promotions or event information.</p>
                 </div>
                 <form>
                     <ul class="wrapper">
                         <li class="form-row">
-                            <label for="name">Name:</label>
-                            <input type="text" id="name">
+                            <label for="name-">Name:</label>
+                            <input type="text" id="name-">
                         </li>
                         <li class="form-row">
-                            <label for="email">Email:</label>
-                            <input type="email" id="email">
+                            <label for="email-">Email:</label>
+                            <input type="email" id="email-">
                         </li>
                         <li class="form-row">
                             <button type="submit">submit</button>
@@ -91,24 +89,147 @@
             </section>
 
             <section class="form">
-                <div class="row">
-                    <h3>Ring Sizing Chart</h3>
+                <div class="row top-row">
+                    <h4>Ring Sizing Chart</h4>
                 </div>
                 <h5>Ring Sizing Chart</h5>
-                <div class="table--grid">
-                    <span>
-                        <strong>Ring Size</strong>
-                    </span>
-                    <span>
-                        <strong>Diameter <span>(mm)</span></strong>
-                    </span>
-                    <span>
-                        <strong>Circumference <span>(mm)</span></strong>
-                    </span>
-                    <span>F</span>
-                    <span>14.1</span>
-                    <span>44.2</span>
-                </div>
+                <table>
+                    <!-- <caption>Ring Sizing Chart</caption> -->
+                    <thead>
+                        <tr>
+                            <th>Ring Size</th>
+                            <th>Diameter <span>(mm)</span></th>
+                            <th>Circumference <span>(mm)</span></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>F</td>
+                            <td>14.1</td>
+                            <td>44.2</td>
+                        </tr>
+                        <tr>
+                            <td>G</td>
+                            <td>14.5</td>
+                            <td>45.5</td>
+                        </tr>
+                        <tr>
+                            <td>H</td>
+                            <td>14.9</td>
+                            <td>46.8</td>
+                        </tr>
+                        <tr>
+                            <td>I</td>
+                            <td>15.3</td>
+                            <td>48</td>
+                        </tr>
+                        <tr>
+                            <td>J 1/2</td>
+                            <td>15.7</td>
+                            <td>49.3</td>
+                        </tr>
+                        <tr>
+                            <td>K 1/2</td>
+                            <td>16.1</td>
+                            <td>50.6</td>
+                        </tr>
+                        <tr>
+                            <td>L 1/2</td>
+                            <td>16.5</td>
+                            <td>51.9</td>
+                        </tr>
+                        <tr>
+                            <td>M 1/2</td>
+                            <td>16.9</td>
+                            <td>53.1</td>
+                        </tr>
+                        <tr>
+                            <td>N 1/2</td>
+                            <td>17.3</td>
+                            <td>54.4</td>
+                        </tr>
+                        <tr>
+                            <td>O 1/2</td>
+                            <td>17.7</td>
+                            <td>55.7</td>
+                        </tr>
+                        <tr>
+                            <td>P 1/2</td>
+                            <td>18.1</td>
+                            <td>57.0</td>
+                        </tr>
+                        <tr>
+                            <td>Q 1/2</td>
+                            <td>18.5</td>
+                            <td>58.3</td>
+                        </tr>
+                        <tr>
+                            <td>R 1/2</td>
+                            <td>19</td>
+                            <td>59.2</td>
+                        </tr>
+                        <tr>
+                            <td>S 1/2</td>
+                            <td>19.4</td>
+                            <td>60.8</td>
+                        </tr>
+                        <tr>
+                            <td>T 1/2</td>
+                            <td>19.8</td>
+                            <td>62.1</td>
+                        </tr>
+                        <tr>
+                            <td>U 1/2</td>
+                            <td>20.2</td>
+                            <td>63.4</td>
+                        </tr>
+                        <tr>
+                            <td>V 1/2</td>
+                            <td>20.6</td>
+                            <td>64.6</td>
+                        </tr>
+                        <tr>
+                            <td>W 1/2</td>
+                            <td>21</td>
+                            <td>65.9</td>
+                        </tr>
+                        <tr>
+                            <td>X 1/2</td>
+                            <td>21.4</td>
+                            <td>67.2</td>
+                        </tr>
+                        <tr>
+                            <td>Z</td>
+                            <td>21.8</td>
+                            <td>69.7</td>
+                        </tr>
+                        <tr>
+                            <td>Z1</td>
+                            <td>22.2</td>
+                            <td>69.7</td>
+                        </tr>
+                        <tr>
+                            <td>Z2</td>
+                            <td>22.6</td>
+                            <td>71</td>
+                        </tr>
+                        <tr>
+                            <td>Z3</td>
+                            <td>23</td>
+                            <td>72.3</td>
+                        </tr>
+                        <tr>
+                            <td>Z4</td>
+                            <td>23.4</td>
+                            <td>73.6</td>
+                        </tr>
+                        <tr>
+                            <td>Z5</td>
+                            <td>23.8</td>
+                            <td>74.8</td>
+                        </tr>
+                    </tbody>
+                </table>
             </section>
         </div>
         <footer>
